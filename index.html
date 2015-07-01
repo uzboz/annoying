@@ -23,17 +23,17 @@
 <script type="text/javascript">
     
 $(document).ready(function(){
-$.get( "balance2.asp", function( data ) {
+$.get( "http://www.xpressms.com/united/balance2.asp", function( data ) {
   $('#testdata').html(data).prepend("United Balance ");
 });
 });
 $(document).ready(function(){
-$.get( "manebalance.asp", function( data1 ) {
+$.get( "http://www.xpressms.com/united/manebalance.asp", function( data1 ) {
   $('#testdata1').html(data1).prepend("Mane Balance ");
 });
 });
 $(document).ready(function(){
-$.get( "voicebalance.asp", function( data2 ) {
+$.get( "http://www.xpressms.com/united/voicebalance.asp", function( data2 ) {
   $('#testdata2').html(data2).prepend("Voice Balance ");
 });
 });
